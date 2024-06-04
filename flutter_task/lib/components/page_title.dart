@@ -8,7 +8,6 @@ class PageTitle extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // TODO chack Title Widget
     return Center(
       child: Text(
         text,

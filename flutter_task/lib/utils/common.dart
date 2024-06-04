@@ -31,7 +31,6 @@ List<dynamic> validateEmail(String email) {
 
 // Simulate API call
 Future<void> submitForm({int delay = 0, SignupAPIError? error}) async {
-  // SignupAPIError
   return await Future.delayed(Duration(milliseconds: delay), () {
     if (error != null) {
       throw error;

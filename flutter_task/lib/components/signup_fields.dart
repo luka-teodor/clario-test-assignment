@@ -45,7 +45,6 @@ class SignupFields extends StatelessWidget {
           onChanged: onEmailChanged,
           inputState: emailInputState,
         ),
-        // TODO email format error ?
         const SizedBox(height: 20.0),
         PasswordField(
           onChanged: onPasswordChanged,
